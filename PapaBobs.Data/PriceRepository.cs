@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PapaBobs.Data
 {
-	class PriceRepository
+	public class PriceRepository
 	{
 		public static DTO.PriceDTO GetPrices()
 		{

@@ -124,6 +124,16 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PapaBobs.Domain\PapaBobs.Domain.csproj">
+      <Project>{6007a775-886b-46e4-9a26-7a74060983e6}</Project>
+      <Name>PapaBobs.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PapaBobs.DTO\PapaBobs.DTO.csproj">
+      <Project>{9967eeb4-dcd5-43f8-b6b2-cde2edc07af4}</Project>
+      <Name>PapaBobs.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
